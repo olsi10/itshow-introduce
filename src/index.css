@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* 메인 폰트 */
+@font-face {
+  font-family: 'GabiaHeuldot';
+  src: url(./assets/font/GabiaHeuldot/GabiaHeuldot.ttf);
+}
+
+/* 서브 폰트 */
+
+
+/* 2023 IT SHOW MOON 텍스트 전용 */
+@font-face {
+  font-family: 'JockeyOne';
+  src: url(./assets/font/JockeyOne/JockeyOne-Regular.ttf);
+}
