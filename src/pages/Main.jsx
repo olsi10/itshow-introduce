@@ -1,15 +1,34 @@
 import React from "react";
 import { styled } from "styled-components";
-import { useMediaQuery } from "react-responsive";
-// import Moons from "../components/Moons";
 
 const Container = styled.div`
-    height: 1080px;
+    width: 100vw;
+    height: 150vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 100px;
     background-color: #433636;
+    @media screen and (max-width: 700px) {
+        width: 100vw;
+        height: auto;
+    }
+`
+
+
+const Moons = styled.div`
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    @media screen and (max-width: 800px) {
+        flex-direction: column-reverse;
+        gap: 43px;
+    }
+    @media screen and (max-height: 800px) {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    
 `
 
 const Title = styled.div`
@@ -23,49 +42,24 @@ const Text = styled.div`
     font-size: 200px;
     margin: 17px 0px 0px 54px;
     color: #fff;
+    @media screen and (max-width: 1330px) {
+        font-size: 70px;
+    }
+    @media screen and (max-width: 700px) {
+        font-size: 50px;
+        padding: 15px 0px 0px 0px;
+    }
 `
 
 const Rabbit = styled.div`
     display: flex;
     height: 172px;
     margin: 67px 86px 0px 0px;
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
 `
 
-const images = [
-    "./images/moons/moon1.png",
-    "./images/moons/moon2.png",
-    "./images/moons/moon3.png",
-    "./images/moons/moon4.png",
-    "./images/moons/moon5.png",
-];
-
-const Moons = styled.div`
-    width: 100%;
-    position: absolute;
-    top: 39%;
-    display: flex;
-    justify-content: space-around;
-`
-
-export const Moblie =  ({children}) => {
-    const isMobile = useMediaQuery({
-        query : "(max-width: 768px)"
-    });
-
-    console.log('몹일');
-
-    return <>{isMobile && children}</>
-}
-
-export const PC = ({children}) => {
-    const isPC = useMediaQuery({
-        query : "(min-width: 769px)"
-    });
-
-    console.log('피시');
-
-    return <>{isPC && children}</>
-}
 export default function Main() {
     return(
         <Container>
@@ -77,26 +71,12 @@ export default function Main() {
                 </Rabbit>
             </Title>
             <Moons>
-                {/* https://velog.io/@hyerin0930/React-%EB%B0%98%EC%9D%91%ED%98%95-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-with-react-responsive */}
-                {images.map((image, index) => {
-                if (index === 1 || index === 2 || index === 3) {
-                return <img key={index} src={image} alt={`Image ${index + 1}`} style={{ marginTop: '-100px' }} />;
-                } else {
-                return <img key={index} src={image} alt={`Image ${index + 1}`} style={{ marginTop: '30px' }} />;
-                }
-                })}
+                <div className="m1"><img src="./images/moons/moon1.png" alt="" /><div className="moon-name">그믐달</div></div>
+                <div className="m2"><img src="./images/moons/moon2.png" alt="" /><div className="moon-name">하현달</div></div>
+                <div className="m3"><img src="./images/moons/moon3.png" alt="" /><div className="moon-name">보름달</div></div>
+                <div className="m4"><img src="./images/moons/moon4.png" alt="" /><div className="moon-name">상현달</div></div>
+                <div className="m5"><img src="./images/moons/moon5.png" alt="" /><div className="moon-name">초승달</div></div>
             </Moons>
-            {/* <Moblie>1
-                {images.map((image, index) => (
-                    <img key={index} src={image} alt={`Image ${index + 1}`} />
-                ))}
-            </Moblie>
-
-            <PC>
-                {images.map((image, index) => (
-                    <img key={index} src={image} alt={`Image ${index + 1}`} />
-                ))}
-            </PC> */}
 
         </Container>
     )
