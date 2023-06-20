@@ -12,9 +12,10 @@ const Container = styled.div`
     align-items: center;
     gap: 100px;
     background: #F3EDED;
+    overflow: hidden;
 `
 const Header = styled.div`
-    height: 1080px;
+    height: 45vw;
     display: flex;
     gap: 180px;
     justify-content: center;
@@ -32,6 +33,10 @@ const Moon = styled.div`
 `
 const Text=styled.div`
     font-weight: bold;
+    font-size: 30px;
+    @media screen and (max-width: 1000px) {
+        font-size: 
+    }
 `
 export default function Detail() {
     // const location = useLocation();
@@ -50,17 +55,17 @@ export default function Detail() {
             <Header>
                 <Moon />
                 <div>
-                    <Text style={{fontSize: '10%'}}>음력 15일~16일</Text>
-                    <Text style={{fontSize: '50%'}}>보름달</Text>
-                    <Text style={{fontSize: '20%'}}>풍년을 기원하고 즐기는 흥겨운 나날들</Text>
+                    <Text>음력 15일~16일</Text>
+                    <Text>보름달</Text>
+                    <Text>풍년을 기원하고 즐기는 흥겨운 나날들</Text>
                 </div>
             </Header>
-            {soft.filter((e)=> e.subject==="초승달").map((a)=>{
+            {/* soft.filter((e)=> e.subject==="그믐달"). */}
+            {soft.map((a)=>{
                 return(
                     <Items name={a.name} poster={a.poster} comm={a.comment} team={a.team} lang={a.language} tool={a.tool} github={a.github} />
                 )
             })}
-            
         </Container>
     );
 }
