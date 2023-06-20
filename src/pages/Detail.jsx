@@ -1,6 +1,8 @@
 import React from "react";
 import Items from "../components/Items";
 import { styled } from "styled-components";
+import soft from "../soft.json"
+import { useLocation } from "react-router-dom";
 
 const Container = styled.div`
     height: 100%;
@@ -19,8 +21,8 @@ const Header = styled.div`
     align-items: center;
 `
 const Moon = styled.div`
-    width: 465px;
-    height: 488px;
+    width: 20vw;
+    height: 20vw;
     background: url('/images/detail/fullmoon.png') center/contain no-repeat;
     transition: 0.3s;
     &:hover{
@@ -32,19 +34,33 @@ const Text=styled.div`
     font-weight: bold;
 `
 export default function Detail() {
+    // const location = useLocation();
+    // const id = location.state.id;
+
+    const moon={
+        "초승달" : "halfmoon",
+        "상현달" : "halfmoon",
+        "보름달" : "fullmoon",
+        "하현달" : "halfmoon",
+        "그믐달" : "halfmoon",
+    }
+
     return(
         <Container>
             <Header>
                 <Moon />
                 <div>
-                    <Text style={{fontSize: '15px'}}>음력 15일~16일</Text>
-                    <Text style={{fontSize: '150px'}}>보름달</Text>
-                    <Text style={{fontSize: '25px'}}>풍년을 기원하고 즐기는 흥겨운 나날들</Text>
+                    <Text style={{fontSize: '10%'}}>음력 15일~16일</Text>
+                    <Text style={{fontSize: '50%'}}>보름달</Text>
+                    <Text style={{fontSize: '20%'}}>풍년을 기원하고 즐기는 흥겨운 나날들</Text>
                 </div>
             </Header>
-            <Items />
-            <Items />
-            <Items />
+            {soft.filter((e)=> e.subject==="초승달").map((a)=>{
+                return(
+                    <Items name={a.name} poster={a.poster} comm={a.comment} team={a.team} lang={a.language} tool={a.tool} github={a.github} />
+                )
+            })}
+            
         </Container>
     );
 }

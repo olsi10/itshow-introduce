@@ -1,5 +1,6 @@
 import React from "react";
 import { styled } from "styled-components";
+import { useNavigate } from 'react-router-dom';
 
 const Container = styled.div`
     width: 65vw;
@@ -12,8 +13,9 @@ const Container = styled.div`
 `
 const Image = styled.div`
     width: 36vw;
-    height: 20vh;
-    background: url('https://show2022.netlify.app/panel-img/%EB%9D%BC%EB%96%BC%EB%8A%94%EB%A7%90%EC%9D%B4%EC%95%BC%20%EC%95%9E.jpg') center/cover no-repeat;
+    height: 30vh;
+    // background: url('https://show2022.netlify.app/panel-img/%EB%9D%BC%EB%96%BC%EB%8A%94%EB%A7%90%EC%9D%B4%EC%95%BC%20%EC%95%9E.jpg') center/cover no-repeat;
+    background: ${(props) => `url(${props.poster})`} center/cover no-repeat;
     border-radius: 20px;
     box-shadow: 4px 4px 20px #E4E4E4;
     align-self: center;
@@ -28,7 +30,7 @@ const Title = styled.div`
     font-weight: bold;
     margin-top: 20px;
 `
-const Cast = styled.div`
+const Team = styled.div`
     font-size: 18px;
 `
 const Expl = styled.div`
@@ -45,18 +47,19 @@ const Github = styled.div`
     display: flex;
     gap: 20px;
 `
-const Items = () => {
+const Items = (props) => {
+    const navigate = useNavigate();
     return(
         <Container>
-            <Image />
+            <Image poster={props.poster} onClick={()=>{window.open(props.poster)}}/>
             <Contents>
-                <Title>voiceflow</Title>
-                <Cast>Design, Develope. 웹솔루션 김유진, 웹솔루션 박선주, 웹솔루션 임수민</Cast>
-                <Expl>소리와 몸짓으로 직접 참여하는 아케이드 게임들🎮🕹</Expl>
-                <IconImages>React.js, node.js, express, mongoDB</IconImages>
+                <Title>{props.name}</Title>
+                <Team>{props.team}</Team>
+                <Expl>{props.comment}</Expl>
+                <IconImages>{props.lang} {props.tool}</IconImages>
                 <Github>
                     <img src="/images/github.png" alt="" />
-                    <a href="https://github.com/55soup/itshow-voiceflow" target="_blank">https://github.com/55soup/itshow-voiceflow</a>
+                    <a href={props.github} target="_blank">{props.github}</a>
                 </Github>
             </Contents>
         </Container>

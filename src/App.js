@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Main from './pages/Main'
 import Detail from './pages/Detail';
 import { styled } from 'styled-components';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Detail />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main/>} />
+        <Route path="/detail" element={<Detail/>} />
+      </Routes>
+    </Router>
   );
 }
 
