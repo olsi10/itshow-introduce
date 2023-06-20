@@ -5,7 +5,7 @@
   "language": "rn, nodejs, mysql, expo\n",
   "tool": "vscode",
   "comment": "미림인들을 위한 소통 및 학교 생활 관련 정보 공유 앱",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/10767ec5-2925-4009-a1f6-930eaed2438d\/image.jpg ",
+  "poster": "https://velog.velcdn.com/images/55soup/post/003141ae-e885-493f-8d46-2c5432690727/image.jpg",
   "github": "https:\/\/github.com\/orgs\/2023-mirimi\/repositories",
   "team": "김보경, 최윤영, 최혜민, 하진"
  },
@@ -15,7 +15,7 @@
   "language": "flutter, mariadb, nugu_developers",
   "tool": "android_studio",
   "comment": "아침결식을 해결해주는 앱, NUGU",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/0b4c65f3-4f9a-4fcb-8ac6-ba28c12bdafc\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/8554c1ab-d0ac-4bfc-85d5-b6f3f4e0f948/image.jpg",
   "github": "https:\/\/github.com\/55soup\/flutter-breakfastforce",
   "team": "박선주, 최윤영, 임수민"
  },
@@ -25,7 +25,7 @@
   "language": "rn, nodejs, mariadb, aws, firebase",
   "tool": "vscode",
   "comment": "친구의 목소리를 알람 벨소리로 설정할 수 있는 알람시계 앱",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/a790c8cf-5b02-4432-a045-e9c09a89ce26\/image.png",
+  "poster": "https://velog.velcdn.com/images/55soup/post/27dc2e14-ee10-4826-8017-477c323e4614/image.jpg",
   "github": "https:\/\/github.com\/heyDudeAlarm\/react-heydude",
   "team": "박선주, 하진"
  },
@@ -35,7 +35,7 @@
   "language": "java, firebase, tensorflow, teachable_machine",
   "tool": "android_studio",
   "comment": "식물을 더욱 체계적으로 키우고 싶을 때 도움을 주는 앱",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/a71a50af-2272-4861-b120-a8319352c86f\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/d1619b7f-106f-4dfb-9c0a-b8b6f7c55288/image.jpg",
   "github": "https:\/\/github.com\/Backseonmi\/P.o.P-Plants-of-Plan-.git",
   "team": "백선미, 안소영"
  },
@@ -45,7 +45,7 @@
   "language": "html, css, JS, php, mysql",
   "tool": "vscode",
   "comment": "우리 삶에서 뗄 수 없는 음악을 다이어리에 담아 음악에 담긴 추억으로 돌아갈 수 있는 기록형 웹서비스",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/8603ae2f-def1-4325-b5af-30149b650699\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/5648b056-08f4-4bb9-85fe-aee42902b5b0/image.jpg",
   "github": "https:\/\/github.com\/app-and-me\/MandMs",
   "team": "김민영, 김선희, 김현지, 박재희, 박세연, 이유진, 황혜경"
  },
@@ -55,7 +55,7 @@
   "language": "nextjs, js, nodejs, mysql\n",
   "tool": "vscode",
   "comment": "일의 효율을 높여주는 단축키, 단축어를 익힐 수 있는 웹사이트",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/51680d13-de25-42ce-b7c5-1fa6c2841992\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/77c5d748-ef50-45c0-b322-b1d4eed0ff8b/image.jpg",
   "github": "https:\/\/github.com\/orgs\/2023-study-key\/repositories",
   "team": "김유진, 최혜민, 이유리"
  },
@@ -65,7 +65,7 @@
   "language": "react, nodejs, mysql, aws",
   "tool": "vscode",
   "comment": "일본의 드라마, 영화, 애니메이션 등 \n문화 콘텐츠의 모티브가 된 장소의 정보를 알려주는 서비스입니다.",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/5c5177fe-52bb-44ac-a76b-a21babe97b02\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/a15841eb-4256-4960-a2b6-83d5a8113e90/image.jpg",
   "github": "https:\/\/github.com\/55soup\/cheese-pot",
   "team": "김수하, 박선주, 임수연, 최승빈"
  },
@@ -85,7 +85,7 @@
   "language": "Kotlin, android, Room, nodejs, Express",
   "tool": "android_studio",
   "comment": "해외 호텔 체크인\/체크아웃을 도와주는 앱 서비스로, 호텔의 무료 \/ 유로 \n서비스를 앱 내에서 사용하고, 총 사용액을 알려줌.",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/a5e7db66-f654-48b2-9b75-53ed08799d36\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/f48a33aa-b60e-4433-8a72-feb4fc2c79ae/image.jpg",
   "github": "https:\/\/github.com\/5h6Sm\/RoominProject.git",
   "team": "김유진, 인서진, 임수민, 하도연"
  },
@@ -95,6 +95,7 @@
   "language": "react",
   "tool": "vscode",
   "comment": "미림여자정보과학고 학생 옷 입히기 게임입니다",
+  "poster" : "https://velog.velcdn.com/images/55soup/post/134bcb9b-b9fe-4509-935c-4b9b78b28af7/image.jpg",
   "github": "https:\/\/github.com\/biyakim\/dazzling.git",
   "team": "김비야, 양서영, 윤성현"
  },
@@ -104,7 +105,7 @@
   "language": "android, java, html, css, js, mysql, nodejs",
   "tool": "android_studio",
   "comment": "투두리스트를 완료함으로써 자신의 피자를 완성하는 앱",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/069c0f0d-72f7-415a-87af-db6bd821c692\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/009d5b65-d327-4c55-9a2d-ac2296d41dc2/image.jpg",
   "github": "https:\/\/github.com\/ch0515\/TodoPizza_App https:\/\/github.com\/ch0515\/ToDoPizza",
   "team": "최원서, 황채민"
  },
@@ -114,6 +115,7 @@
   "language": "react, firebase",
   "tool": "vscode",
   "comment": "유기견들의 입양을 도와주고 애완견과 함께 할 수 있는 활동 등을\n알려주는 웹사이트",
+  "poster" : "https://velog.velcdn.com/images/55soup/post/0ae5e149-b21a-4487-9366-fbccc237ef90/image.jpg",
   "github": "https:\/\/github.com\/biyakim\/Bow-Wow.git",
   "team": "김비야, 백선미"
  },
@@ -123,7 +125,7 @@
   "language": "unity, Csharp",
   "tool": "unity",
   "comment": "교칙을 어기는 복장으로 등교를 해버린 학생!\n등굣길에 계신 선생님들을 피해 안전하게 교실까지 가자",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/564f34b9-1bb3-4ba6-8f3f-f1ceb734a23b\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/6fa19ac9-201e-458e-ba9b-564dbebf66cb/image.jpg",
   "github": "https:\/\/github.com\/dbdbennn\/SUNotDry.git",
   "team": "신유림, 양혜원, 유정은"
  },
@@ -133,7 +135,7 @@
   "language": "html, css, js,php,mysql",
   "tool": "vscode",
   "comment": "마이스터고를 궁금해하는 학생들을 위한 정보 제공 웹사이트",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/4f969394-8e3f-459a-a17a-78944bc6cd55\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/4256e0e5-c636-4b98-a237-52b5cddcb907/image.jpg",
   "github": "https:\/\/github.com\/ImJaeYeeon\/MyMei.git",
   "team": "이지수, 임재연, 정선영, 하도연"
  },
@@ -143,7 +145,7 @@
   "language": "nextjs, js, firebase",
   "tool": "vscode",
   "comment": "미혼모들을 위한 정보 공유 및 소통 웹",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/d9fd16eb-717b-485d-8a15-a04fa41bfe6b\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/20b20b14-ea72-4ada-9206-70a328b454bc/image.jpg",
   "github": "https:\/\/github.com\/2023-i-care\/i-care-client",
   "team": "김비야, 김예진, 최혜민"
  },
@@ -153,7 +155,7 @@
   "language": "html, css, JS, PHP, react",
   "tool": "vscode",
   "comment": "농구공을 색깔에 따라 분류하여 던지고 점수를 쌓는 웹 게임",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/471908fe-3f5d-4dc8-94fe-bee13c23c6c8\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/87dc6f98-cf18-4bc9-8188-180867d401ca/image.jpg",
   "github": "https:\/\/github.com\/hyewwonn\/BuzzerBeater.git",
   "team": "김민영 양혜원, 이혜령"
  },
@@ -163,7 +165,7 @@
   "language": "html, css, js,  react, mysql",
   "tool": "vscode",
   "comment": "세상에 첫 발걸음을 뛰는 사회초년생 MZ들을 위한 회사생활 가이드 웹서비스",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/b6c2ed9b-a867-4f7f-b3d9-b41755539f83\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/05e432b7-f976-48d2-8009-1924dee28dd1/image.jpg",
   "github": "https:\/\/github.com\/alszero\/Bluets",
   "team": "김민영, 이미란, 최승빈, 편은진"
  },
@@ -173,7 +175,7 @@
   "language": "react, nodejs, MongoDB, Redux",
   "tool": "vscode",
   "comment": "모션 인식과 음성 인식을 통한 활동적인 웹 게임으로, 3개의 테마의 \n음성 및 모션 게임을 진행함. ",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/08377750-4a80-4fb6-b41a-d7ac08b473f0\/image.png",
+  "poster": "https://velog.velcdn.com/images/55soup/post/f2b17932-82c9-4005-9a1b-bc83d3ef4ce4/image.jpg",
   "github": "https:\/\/github.com\/55soup\/itshow-voiceflow",
   "team": "김유진, 박선주, 임수민"
  },
@@ -183,7 +185,7 @@
   "language": "html, css, js, react",
   "tool": "vscode",
   "comment": "여러 문항으로 이루어진 테스트를 통해 자신이 어떤 유형의 공주♥인지 \n알아보는 웹사이트",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/9bdc1611-700c-4f4c-b69c-e50851db15a3\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/32a507ab-12a2-447d-8397-84781b363703/image.jpg",
   "github": "https:\/\/github.com\/Z0ro0\/Princess_Test",
   "team": "이혜령, 최가을, 황채민 "
  },
@@ -193,7 +195,7 @@
   "language": "C++",
   "tool": "visual_studio",
   "comment": " 포스트 아포칼립스 세계관의 주인공이 파괴된 지구에서 탈출하여 달로 가는 여정을 게임으로 구현함 ",
-  "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/db3929b3-46c1-4eb1-8e3f-b1ea7b63e03d\/image.jpg",
+  "poster": "https://velog.velcdn.com/images/55soup/post/8db11057-7ae9-49b0-8dd9-286496658535/image.jpg",
   "github": "X",
   "team": "김민주, 김소희, 금나리, 양소영, 유지민, 이윤경, 임소영"
  },
@@ -213,6 +215,7 @@
   "language": "python",
   "tool": "vscode",
   "comment": "모태솔로 여학생의 모태솔로 탈출 가상 연애 시뮬레이션 게임",
+  "poster" : "https://velog.velcdn.com/images/55soup/post/51cd79d8-1b6b-4b78-8ab1-21118d9da123/image.jpg",
   "github": "https:\/\/github.com\/ImJaeYeeon\/First_love.git",
   "team": "양서영, 임재연, 윤성현, 하도연"
  },
@@ -223,7 +226,7 @@
     "language": "java, mysql",
     "tool": "intelliJ",
     "comment": "검은토끼 계묭이를 도와주어 늑대를 피해 계묘년  잔치에 \n참석 할 수 있도록 돕는 게임",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/363adb59-6740-405a-9f40-92b2a8fb619c\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/c0133c86-bb18-48dd-a766-37ee8864d0e9/image.jpg",
     "github": "https:\/\/github.com\/chojangg\/Gaemoew",
     "team": "김소리, 김윤서, 최자윤"
 },
@@ -233,6 +236,7 @@
     "language": "csharp, unity, vscode",
     "tool": "unity",
     "comment": "작은 행동이 모여 세상을 바꾼다는 말이 있습니다. HI!EARTH는 주인공이 숲, 바다 맵에서 환경문제를 파악하고, 스테이지 속 퍼즐을 푸는 힐링 게임으로, 환경에 대해 경각심을 깨닫고 모두 함께 세상을 바꿔나가길 원합니다.\n\"우리 같이 세상을 바꾸는 모험가가 되어볼까?\"",
+    "poster": "https://velog.velcdn.com/images/55soup/post/d6c50dd8-a0cc-43fd-9349-8962103e4144/image.jpg",
     "github": "https:\/\/github.com\/printyeon\/HI-EARTH",
     "team": "박승채, 박하은, 임수연, 인서진, 정유진"
 },
@@ -242,7 +246,7 @@
     "language": "csharp, unity",
     "tool": "unity",
     "comment": "어릴 때 썼던 그림 일기 속 '낙서 왕국'으로 빨려들어왔다. \n어서 왕국을 탈출하고 다시 집으로 돌아가자!\n스토리 공포 쯔꾸르 게임",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/bacca6fa-a74b-42de-a1c6-264f16b0651a\/image.png",
+    "poster": "https://velog.velcdn.com/images/55soup/post/40bcd9cc-f7b5-4c8d-8ed3-c0bd44d50fe9/image.jpg",
     "github": "https:\/\/github.com\/xodus05\/doodlecastle1",
     "team": "김태연, 문채영"
 },
@@ -251,8 +255,8 @@
     "subject": "상현달",
     "language": "html, css, js, nodejs,  firebase, express, android,\n java",
     "tool": "vscode",
-    "comment": "\"뭘 읽어야 잘 읽었다고 소문이 나지?\"\n비록 책을 읽은 시간은 없지만 고르는 책 하나만큼은 마음에 쏙 들어야 하는 현대인에게 있어 '선택'이란 어려운 일입니다. 더 넓은 독후활동을 위한 맞춤형 도서 리뷰 서비스 'RE;COMM'은 당신이 관심 잇는 책에 작성한 리뷰를 통해 분석한 데이터로 당신에게 딱 맞는 책을 추천합니다.",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/80b58d51-05d6-4caf-a62f-2a6b40dcf4a8\/image.jpg",
+    "comment": "\"더 넓은 독후활동을 위한 맞춤형 도서 리뷰 서비스 'RE;COMM'은 당신이 관심 잇는 책에 작성한 리뷰를 통해 분석한 데이터로 당신에게 딱 맞는 책을 추천합니다.",
+    "poster": "https://velog.velcdn.com/images/55soup/post/ca9a978c-6565-4380-a4c2-69654722407c/image.jpg",
     "github": "https:\/\/github.com\/printyeon\/RE-COMM\nhttps:\/\/github.com\/seungchae1\/ReComm",
     "team": "임수연,박승채, 최윤영, 인서진, 오은채, 정유진, 박하은, 엄희주"
 },
@@ -262,7 +266,7 @@
     "language": "kotlin, android, firebase",
     "tool": "android_studio",
     "comment": "배너, 알림센터, 잠금화면에 띄우는 알람을 통해 나의 할 일과\n일정을 되새겨주는 일정관리 알람 어플",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/ec3204cf-94f8-4bbd-a0ae-f0d810a0382d\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/a6b96a5e-e44d-4813-8d5d-61acd344fe99/image.jpg",
     "github": "https:\/\/github.com\/moon12-3\/NotiUp.git",
     "team": "문채영, 박나경, 정유진"
 },
@@ -272,17 +276,17 @@
     "language": "html, css, js, PHP, mysql",
     "tool": "vscode",
     "comment": "취미 테스트를 통해 자신에게 맞는 취미를 추천받고 게시판에서 \n자신의 취미를 공유하는 웹 사이트",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/2c84fa6c-4476-4c23-b71a-15c8df55c482\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/fbd98c2e-0beb-458c-ac17-f4d006645078/image.jpg",
     "github": "https:\/\/github.com\/seungchae1\/hobby_country",
     "team": "곽경희, 박승채, 정유진"
 },
 {
     "name": "토끼 알바생 : 떡집 알바 대작전",
     "subject": "보름달",
-    "language": "html, css, js, nodejs, mysql, VSCode, DALLE, teachable_machine, Midjourney",
+    "language": "html, css, js, nodejs, mysql, DALLE, teachable_machine, Midjourney",
     "tool": "vscode",
     "comment": "달나라 떡집의 토끼 알바생이 되어 떡을 만드는 모션감지 타이쿤 게임",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/80ba9d6e-26e3-4802-b2e3-e3b60520f262\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/dc5fad89-935b-4c41-a885-39dcfbdab315/image.jpg",
     "github": "https:\/\/github.com\/ProgrammerYes25\/RabbitPartTimer",
     "team": "정가현, 정현진, 조예서"
 },
@@ -302,7 +306,7 @@
     "language": "java, firebase",
     "tool": "android_studio",
     "comment": "월경 용품 정보 제공 어플리케이션",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/8197b365-492f-43cd-b10c-9614037356eb\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/f249887f-423d-4d2b-8869-dc83c2d145f3/image.jpg",
     "github": "https:\/\/github.com\/iamhanori\/moody",
     "team": "김하늘, 맹선주, 양다연, 엄희주"
 },
@@ -312,7 +316,7 @@
     "language": "java, mysql ",
     "tool": "intelliJ",
     "comment": "어렸을 적 크고 밝게 빛나는 달을 본 후 달나라로 가기로 마음 먹은 토끼.\n지상에서부터 달까지 모험을 떠나는 토끼의 어드벤처 게임",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/c9a9f507-1f91-4132-a505-bebb2533bac1\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/e31b73fd-6f58-40bc-b2d4-a52f75c5ff08/image.jpg",
     "github": "https:\/\/github.com\/chaeyoung1027\/ToTheMoon",
     "team": "인소리, 임채영"
 },
@@ -322,27 +326,27 @@
     "language": "html, css, js, nodejs, mysql",
     "tool": "vscode",
     "comment": "소중한 기억들을 모으고 공유하는 전시회 웹",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/efa45dd1-0fc0-441b-a21f-f84af816302d\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/de10e78e-9130-4c69-a037-7a668ad3f2ae/image.jpg",
     "github": "https:\/\/github.com\/juwan-25\/memory",
     "team": "곽경희, 김하늘, 김태연, 맹선주, 이주완, 인소리, 정예은"
 },
 {
     "name": "이상한 개발자 CPU",
     "subject": "보름달",
-    "language": "visual_studio, C, C++, mysql",
-    "tool": "vscode",
+    "language": "C, C++, mysql",
+    "tool": "visual_studio, vscode",
     "comment": "C언어의 한계는 어디까지인가!\n히트작 드라마 '이상한 변호사 우영우'를 오마주한 미니게임",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/22c1e5b1-9785-4ca0-98cd-616ef2122593\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/e24a2599-2f20-4018-85fc-04600ff6298b/image.jpg",
     "github": "https:\/\/github.com\/CPU-2023",
     "team": "고은, 김민서, 김서연, 박화경, 배서연, 이혜령, 임효진, 윤소희, 황채민"
 },
 {
     "name": "D-DAY",
     "subject": "보름달",
-    "language": "react, canvas, nodejs, html, css, js, mongodb, Bcrypt",
+    "language": "react, nodejs, html, css, js, mongodb, Bcrypt",
     "tool": "vscode",
     "comment": "삶의 소중함과 하루의 중요성을 깨닫는 방법이 없을까?\n하루를 최선을 다하면서 즐길 수 있는 시간이 필요해!🙆‍♀️\n남은 하루를 행복하게 즐길 수 있도록 여러 마을에서 다양한 점프게임을 플레이 해보세요!",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/8cbb1d3c-7216-4fe8-8c28-ff976f200f4a\/image.png",
+    "poster": "https://velog.velcdn.com/images/55soup/post/e54f35b7-242d-46f4-9bde-511dbe7183e7/image.jpg",
     "github": "https:\/\/github.com\/seoyeon-double-7\/D-DAY",
     "team": "김선혜, 맹선주, 배서연,오은채, 편은진"
 },
@@ -352,7 +356,7 @@
     "language": "java, xml, android, firebase",
     "tool": "android_studio",
     "comment": "미림인들을 위한 미림 매점의 상품 소개 서비스",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/ba491218-7be6-43db-b6de-ee8089d16f7d\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/d61e0b12-7d38-47e9-8d25-fd400bbb8445/image.jpg",
     "github": "https:\/\/github.com\/ProgrammerYes25\/Today_School_Store_Project_Team_HungryP",
     "team": "조예서, 이예진, 양지혜"
 },
@@ -362,7 +366,7 @@
     "language": "java, firebase, SQLite, android",
     "tool": "android_studio",
     "comment": "리필 스테이션에 대한 정보와 이용 방법을 다양한 콘텐츠를 활용해 알려주는 정보 제공 어플리케이션",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/40266486-a1bb-4833-9ba2-d7a45dcabe9f\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/e50cfbdd-8db9-4f02-99fa-3eb84c85300b/image.jpg",
     "github": "https:\/\/github.com\/qorwlalsjimin\/Cheum_STAC",
     "team": "백지민, 이주완, 임재연, 이재원, 이현정"
 },
@@ -372,7 +376,7 @@
     "language": "android, java, firebase, nodejs",
     "tool": "android_studio",
     "comment": "일본여행의 모든 과정을 빠르고 편리하게 도와주는 여행 매니저",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/3ed0ecd4-2f9c-4fd8-9402-8abccc37e238\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/8003145a-f0c2-47f5-8594-129905e09a9b/image.jpg",
     "github": "https:\/\/github.com\/moon12-3\/BaRoad",
     "team": "박승채, 문채영, 임재연, 이재원"
 },
@@ -382,7 +386,7 @@
     "language": "java, xml, android, firebase",
     "tool": "android_studio",
     "comment": "HBD 앱으로 생일인 친구에게 롤링페이퍼와 추억이 담긴 카드로 축하 메시지를 전하세요!",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/43af9b3b-12f1-4866-a85a-203ca53f11b8\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/98bccd6d-6f77-4efc-974b-1bdfa1cf4e9c/image.jpg",
     "github": "https:\/\/github.com\/ProgrammerYes25\/HappyBirthDay",
     "team": "조예서, 양지혜, 정유진, 이유리"
 },
@@ -392,7 +396,7 @@
     "language": "react, css, js, firebase, vsCode",
     "tool": "vscode",
     "comment": "상상카페, 도서관 등 학교에 있는 시설의 자리를 예약하여 사용할 수 \n있도록 도와주는 서비스",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/bf75b81f-8073-445b-86fc-5d1dadd929b4\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/3d19f881-a679-4e4e-86d9-67f754f2eaf8/image.jpg",
     "github": "https:\/\/github.com\/chaeyoung1027\/it-show-dotjari",
     "team": "임채영, 김윤서, 박민지, 이유리"
 },
@@ -409,10 +413,10 @@
 {
     "name": "클로젯또 오푼!",
     "subject": "그믐달",
-    "language": "html, css, js, react, nodejs, mysql, ",
+    "language": "html, css, js, react, nodejs, mysql",
     "tool": "vscode",
     "comment": "일본 명소에 어울리는 옷을 캐릭터에 직접 입혀보며 \n시뮬레이션 해볼 수 있는 게임 서비스",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/f791d966-c906-4423-a510-30534b73157e\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/795f724a-5074-41bd-bb1e-1467c5d17b8c/image.jpg",
     "github": "https:\/\/github.com\/eunjin2118\/closetopen",
     "team": "김신흥, 맹선주,장정원 , 편은진"
 },
@@ -422,7 +426,7 @@
     "language": "java, android, firebase",
     "tool": "android_studio",
     "comment": "키오스크 사용이 어려운 디지털 취약계층 중 노년층들이\n 키오스크를 쉽게 사용할 수 있게 도와주는 교육용 서비스",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/c4ecd74f-3cf6-4a09-82c9-fdd7a167ff9a\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/2c5a187c-1cd0-404e-a62f-bbe85e15d0d4/image.jpg",
     "team": "김태연, 김하늘 "
 },
 {
@@ -431,7 +435,7 @@
     "language": "html, css, js, PHP, mysql",
     "tool": "vscode",
     "comment": "소중한 나, 잊고 싶지 않은 나, 잊어서는 안되는 나! 누구야…? 너의 행성은…!\n사용자의 성격을 행성의 특징에 비유하여 나의 행성을 보여주는 성격 유형 웹 서비스",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/1c2e0fd2-3c9b-4f88-8717-b5c4161d82d9\/image.png",
+    "poster": "https://velog.velcdn.com/images/55soup/post/dc346b62-74c4-46c5-8619-c6d4ce1fdbc3/image.jpg",
     "github": "https:\/\/github.com\/haeunNoh06\/Your-Planet\/tree\/main",
     "team": "노하은,박희현, 이가현,  임지현"
 },
@@ -441,7 +445,7 @@
     "language": "html, css, js, react, spring, Spring_Security, postgresql ",
     "tool": "IntelliJ",
     "comment": "kiru는 한국과 일본의 전통의상을 대여해주는 의상 대여 웹 서비스입니다. kiru에서 다양하고 멋진 한복과 기모노를 만나보세요.",
-    "poster": "https:\/\/velog.velcdn.com\/images\/youjin0411\/post\/c4a04c16-08f5-4abe-93ec-d0e827625d2c\/image.jpg",
+    "poster": "https://velog.velcdn.com/images/55soup/post/a68fa78c-5b85-42ab-840a-737b602c7bd8/image.jpg",
     "github": "https:\/\/github.com\/qorwlalsjimin\/kiru",
     "team": "백지민, 이선영,장서영, 장유연"
 }

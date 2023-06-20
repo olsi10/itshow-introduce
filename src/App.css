@@ -1,9 +1,9 @@
 
 /* Pc는 스크롤 금지 */
 @media screen and (min-width : 1200px) {
-    body {
+    /* body {
         overflow: hidden;
-    }
+    } */
 }
 
 .m1, .m5 {

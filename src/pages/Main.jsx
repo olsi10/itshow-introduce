@@ -1,14 +1,16 @@
 import React from "react";
 import { styled } from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 const Container = styled.div`
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 100px;
     background-color: #433636;
+    overflow: hidden;
     @media screen and (max-width: 700px) {
         width: 100vw;
         height: auto;
@@ -21,11 +23,13 @@ const Moons = styled.div`
     justify-content: space-around;
     margin-top: 3%;
     @media screen and (max-width: 800px) {
-        flex-direction: column-reverse;
+        // flex-flow: column-reverse;
+        flex-direction: column;
         gap: 43px;
     }
     @media screen and (max-height: 800px) {
-        flex-direction: column-reverse;
+        // flex-flow: column-reverse;
+        flex-direction: column;
         gap: 60px;
     }
     
@@ -61,6 +65,7 @@ const Rabbit = styled.div`
 `
 
 export default function Main() {
+    const navigate = useNavigate();
     return(
         <Container>
             <Title>
@@ -71,11 +76,11 @@ export default function Main() {
                 </Rabbit>
             </Title>
             <Moons>
-                <div className="m1"><img src="./images/moons/moon1.png" alt="" /><div className="moon-name">그믐달</div></div>
-                <div className="m2"><img src="./images/moons/moon2.png" alt="" /><div className="moon-name">하현달</div></div>
-                <div className="m3"><img src="./images/moons/moon3.png" alt="" /><div className="moon-name">보름달</div></div>
-                <div className="m4"><img src="./images/moons/moon4.png" alt="" /><div className="moon-name">상현달</div></div>
-                <div className="m5"><img src="./images/moons/moon5.png" alt="" /><div className="moon-name">초승달</div></div>
+                <div className="m5" onClick={()=>{navigate('/detail/1', {state : {id: 1}})}}><img src="./images/moons/moon5.png" alt="" /><div className="moon-name">초승달</div></div>
+                <div className="m4" onClick={()=>{navigate('/detail/2', {state : {id: 2}})}}><img src="./images/moons/moon4.png" alt="" /><div className="moon-name">상현달</div></div>
+                <div className="m3" onClick={()=>{navigate('/detail/3', {state : {id: 3}})}}><img src="./images/moons/moon3.png" alt="" /><div className="moon-name">보름달</div></div>
+                <div className="m2" onClick={()=>{navigate('/detail/4', {state : {id: 4}})}}><img src="./images/moons/moon2.png" alt="" /><div className="moon-name">하현달</div></div>
+                <div className="m1" onClick={()=>{navigate('/detail/5', {state : {id: 5}})}}><img src="./images/moons/moon1.png" alt="" /><div className="moon-name">그믐달</div></div>
             </Moons>
 
         </Container>

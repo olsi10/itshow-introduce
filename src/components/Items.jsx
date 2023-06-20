@@ -9,16 +9,18 @@ const Container = styled.div`
     background: white;
     display: flex;
     flex-direction: column;
-    @media screen and (max-width: 700px) {
+    font-family: GabiaHeuldot;
+    @media screen and (max-width: 900px) {
         width: 80vw;
-        height: 100vw;
+        height: 120vw;
     }
 `
 const Image = styled.div`
     width: 36vw;
     height: 30vh;
     // background: url('https://show2022.netlify.app/panel-img/%EB%9D%BC%EB%96%BC%EB%8A%94%EB%A7%90%EC%9D%B4%EC%95%BC%20%EC%95%9E.jpg') center/cover no-repeat;
-    // background: ${(props) => `url(${props.poster})`} center/cover no-repeat;
+    background: ${(props) => `url(${props.poster})`} center/cover no-repeat;
+    background-position: 0 0;
     border-radius: 20px;
     box-shadow: 4px 4px 20px #E4E4E4;
     align-self: center;
@@ -36,6 +38,7 @@ const Contents = styled.div`
     gap: 15px;
     @media screen and (max-width: 768px) {
        gap: 10px;
+       padding: 0 7vw;
     }
 `
 const Title = styled.div`
@@ -48,6 +51,7 @@ const Title = styled.div`
 `
 const Team = styled.div`
     font-size: 18px;
+    font-weight: bold;
 `
 const Expl = styled.div`
     font-size: 22px
@@ -81,12 +85,12 @@ const Items = (props) => {
     const navigate = useNavigate();
 
     return(
-        <Container>
+        <Container onClick={props.onClick}>
             <Image poster={props.poster} onClick={()=>{window.open(props.poster)}}/>
             <Contents>
                 <Title>{props.name}</Title>
                 <Team>{props.team}</Team>
-                <Expl>{props.comment}</Expl>
+                <Expl>{props.comm}</Expl>
                 <IconImages>
                     {props.lang.split(',').map((a)=>{
                         return(
@@ -94,11 +98,13 @@ const Items = (props) => {
                         )
                     })}
                 </IconImages>
-                <div>{props.tool.split(',').map((a)=>{
-                    return(
-                        <LangIcon src={`/images/logos/${a.trim()}.png`} alt={a}/>
-                    )
-                })}</div>
+                <IconImages>
+                    {props.tool.split(',').map((a)=>{
+                        return(
+                            <LangIcon src={`/images/logos/${a.trim()}.png`} alt={a}/>
+                        )
+                    })}
+                </IconImages>
                 <Github>
                     <img src="/images/github.png" alt="" style={{width: '30px', height: '30px'}}/>
                     <a href={props.github} target="_blank">repository</a>
