@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+
+/* Pc는 스크롤 금지 */
+@media screen and (min-width : 1200px) {
+    /* body {
+        overflow: hidden;
+    } */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.m1, .m5 {
+    width: 222px;
+    height: 230px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.m2, .m4 {
+    width: 122px;
+    height: 243px;
+    margin-top: -6%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.m3 {
+    width: 242px;
+    height: 242px;
+    margin-top: -16%;
 }
 
-.App-link {
-  color: #61dafb;
+.m1 img {
+    width: 100%;
+    height: 100%;
+}
+.m2 img {
+    width: 100%;
+    height: 100%;
+}
+.m3 img {
+    width: 100%;
+    height: 100%;
+}
+.m4 img {
+    width: 100%;
+    height: 100%;
+}
+.m5 img {
+    width: 100%;
+    height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.m1:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(5px 5px 5px #ffd0a5);
+    filter: drop-shadow(-21px 4px 50px #ffd0a5);
+}
+.m2:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(5px 5px 5px #ffd0a5);
+    filter: drop-shadow(-21px 4px 50px #ffd0a5);
+}
+.m3:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(5px 5px 5px #ffd0a5);
+    filter: drop-shadow(-21px 4px 50px #ffd0a5);
+}
+.m4:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(5px 5px 5px #ffd0a5);
+    filter: drop-shadow(-21px 4px 50px #ffd0a5);
+}
+
+.m5:hover {
+    cursor: pointer;
+    -webkit-filter: drop-shadow(5px 5px 5px #ffd0a5);
+    filter: drop-shadow(-21px 4px 50px #ffd0a5);
+}
+
+.moon-name {
+    font-family: 'GabiaHeuldot';
+    color: #fff;
+    font-size: 40px;
+    text-align:center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width : 800px) {
+    body {
+        margin-bottom: 30px;
+        background-color: #433636;
+    }
+    .m1, .m5 {
+        width: 77px;
+        height: 79px;
+        margin-left: 65%;
+    }
+
+    .m2, .m4 {
+        width: 41px;
+        height: 81px;
+        margin-left: 50%;
+    }
+
+    .m3 {
+        width: 77px;
+        height: 77px;
+        margin-left: 20%;
+        margin: 20px 0px 20px 20%;
+    }
+
+    .moon-name {
+        display: none;
+    }
 }
