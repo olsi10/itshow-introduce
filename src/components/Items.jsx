@@ -12,7 +12,7 @@ const Container = styled.div`
     font-family: GabiaHeuldot;
     @media screen and (max-width: 900px) {
         width: 80vw;
-        height: 120vw;
+        height: 123vw;
     }
 `
 const Image = styled.div`
@@ -35,9 +35,9 @@ const Contents = styled.div`
     flex-direction: column;
     padding: 0 15vw;
     margin-bottom: 35px;
-    gap: 15px;
+    gap: 20px;
     @media screen and (max-width: 768px) {
-       gap: 10px;
+       gap: 15px;
        padding: 0 7vw;
     }
 `

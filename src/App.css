@@ -49,27 +49,32 @@
     cursor: pointer;
     -webkit-filter: drop-shadow(5px 5px 5px #ffd0a5);
     filter: drop-shadow(-21px 4px 50px #ffd0a5);
+    transition: 0.3s;
 }
 .m2:hover {
     cursor: pointer;
     -webkit-filter: drop-shadow(5px 5px 5px #ffd0a5);
     filter: drop-shadow(-21px 4px 50px #ffd0a5);
+    transition: 0.3s;
 }
 .m3:hover {
     cursor: pointer;
     -webkit-filter: drop-shadow(5px 5px 5px #ffd0a5);
     filter: drop-shadow(-21px 4px 50px #ffd0a5);
+    transition: 0.3s;
 }
 .m4:hover {
     cursor: pointer;
     -webkit-filter: drop-shadow(5px 5px 5px #ffd0a5);
     filter: drop-shadow(-21px 4px 50px #ffd0a5);
+    transition: 0.3s;
 }
 
 .m5:hover {
     cursor: pointer;
     -webkit-filter: drop-shadow(5px 5px 5px #ffd0a5);
     filter: drop-shadow(-21px 4px 50px #ffd0a5);
+    transition: 0.3s;
 }
 
 .moon-name {
