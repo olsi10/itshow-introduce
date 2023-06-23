@@ -86,10 +86,10 @@
 }
 
 @media screen and (max-width : 800px) {
-    body {
+    /* body {
         margin-bottom: 30px;
         background-color: #433636;
-    }
+    } */
     .m1, .m5 {
         width: 77px;
         height: 79px;

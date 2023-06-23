@@ -1,6 +1,21 @@
 import React from "react";
-import { styled } from "styled-components";
+import styled, {keyframes} from "styled-components";
 import { useNavigate } from "react-router-dom";
+
+
+const rotate = keyframes` /* 2. css코드를 씀. */
+0%{
+    transform: rotate(0deg);
+    border-radius: 0px;
+}
+50%{ 
+    border-radius: 100px;
+}
+100%{
+    transform: rotate(350deg);
+    border-radius: 0px;
+}
+`;
 
 const Container = styled.div`
     width: 100vw;
@@ -63,7 +78,13 @@ const Rabbit = styled.div`
         display: none;
     }
 `
-
+const Image = styled.img`
+    width: 100px;
+    height: 100%;
+    &:hover{
+        animation: ${rotate} 1s linear infinite;
+    }
+`
 export default function Main() {
     const navigate = useNavigate();
     return(
@@ -72,7 +93,7 @@ export default function Main() {
                 <Text>2023 IT SHOW<br/> MOON</Text>
                 <Rabbit>
                     <p style={{fontFamily:'GabiaHeuldot', fontSize:'50px', color:'#fff', marginRight:'32px'}}>안녕!</p>
-                    <img src="./images/rabbit/rabbit.png" style={{width:'100px', height:'100%'}} alt="" />
+                    <Image src="./images/rabbit/rabbit.png" alt="rabbit" />
                 </Rabbit>
             </Title>
             <Moons>

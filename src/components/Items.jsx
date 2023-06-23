@@ -10,7 +10,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     font-family: GabiaHeuldot;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 800px) {
         width: 80vw;
         height: 123vw;
     }
@@ -25,7 +25,7 @@ const Image = styled.div`
     box-shadow: 4px 4px 20px #E4E4E4;
     align-self: center;
     margin-top: 36px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 800px) {
         width: 70vw;
         height: 100vw;
     }
@@ -34,7 +34,7 @@ const Contents = styled.div`
     display: flex;
     flex-direction: column;
     padding: 0 15vw;
-    margin-bottom: 35px;
+    margin: 15px 0 35px 0;
     gap: 20px;
     @media screen and (max-width: 768px) {
        gap: 15px;
@@ -76,11 +76,6 @@ const LangIcon = styled.img`
         height: 30px;
     }
 `
-const Github = styled.div`
-    margin-top: 23px;
-    display: flex;
-    gap: 20px;
-`
 const Items = (props) => {
     const navigate = useNavigate();
 
@@ -88,7 +83,15 @@ const Items = (props) => {
         <Container onClick={props.onClick}>
             <Image poster={props.poster} onClick={()=>{window.open(props.poster)}}/>
             <Contents>
-                <Title>{props.name}</Title>
+                <div style={{display: 'flex', alignItems: 'flex-end'}}>
+                    <Title>{props.name}</Title>
+                    {props.github ? 
+                            <a href={props.github} target="_blank" style={{float: 'right', margin:' auto 0 0 auto'}}>
+                                <img src="/images/github.png" alt="" style={{width: '30px', height: '30px'}}/>
+                            </a>
+                            : null
+                    }
+                </div>
                 <Team>{props.team}</Team>
                 <Expl>{props.comm}</Expl>
                 <IconImages>
@@ -97,18 +100,14 @@ const Items = (props) => {
                             <LangIcon src={`/images/logos/${a.trim()}.png`} alt={a}/>
                         )
                     })}
+                    {props.tool ? 
+                        props.tool.split(',').map((a)=>{
+                            return(
+                                <LangIcon src={`/images/logos/${a.trim()}.png`} alt={a}/>
+                            )
+                        }) : null
+                    }
                 </IconImages>
-                <IconImages>
-                    {props.tool.split(',').map((a)=>{
-                        return(
-                            <LangIcon src={`/images/logos/${a.trim()}.png`} alt={a}/>
-                        )
-                    })}
-                </IconImages>
-                <Github>
-                    <img src="/images/github.png" alt="" style={{width: '30px', height: '30px'}}/>
-                    <a href={props.github} target="_blank">repository</a>
-                </Github>
             </Contents>
         </Container>
     );
