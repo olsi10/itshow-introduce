@@ -2,7 +2,7 @@ import { useState } from "react";
 import Items from "../components/Items";
 import { styled } from "styled-components";
 import soft from "../soft.json"
-import { useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import Alart from "../components/Alart";
 
 const Container = styled.div`
@@ -14,7 +14,7 @@ const Container = styled.div`
     gap: 100px;
     background: #F3EDED;
     overflow: hidden;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
 `
 const Header = styled.div`
     height: 45vw;
@@ -77,6 +77,7 @@ const MoonText = styled(Text)`
     `
 const MoonContent = styled(Text)`
     font-size: 2.5vw;
+    word-break: keep-all;
     @media screen and (max-width: 768px) {
         font-size: 4vw;
     }      
@@ -88,12 +89,23 @@ const MoonDate = styled(Text)`
     }   
 `;
 
-
+const BackBtn = styled.div`
+    width: 2vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 3vw;
+    left: 4vw;
+    cursor: pointer;
+`
 
 export default function Detail() {
     const location = useLocation();
     const id = location.state.id;
     const [isAlart, setIsAlart] = useState(false);
+    const navigate = useNavigate();
     
     const moon={
         1 : ["초승달", "음력 2~4일", "새로움, 생기발랄한 시작 (미림, 공유)"],
@@ -106,6 +118,10 @@ export default function Detail() {
     const filterSoft = soft.filter((e)=> e.subject===moon[id][0]);
     return(
         <Container>
+            <BackBtn onClick={() => {navigate("/")}}>
+                <img src="/images/detail/arrow_left.png" style={{width: '3vw', height: '3vw', zIndex: '3'}}/>
+                <div style={{width: '4.5vw', height: '4.5vw', background: 'white', position: 'absolute', borderRadius: '1rem', opacity: '0.5'}}></div>
+            </BackBtn>
             {isAlart ? <Alart/> : null}
             <Header>
                 <Images>
