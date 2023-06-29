@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# 2023 itshow 소개웹페이지
+<div>
+  <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/filezilla-BF0000?style=for-the-badge&logo=filezilla&logoColor=white">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### [📎웹사이트 바로 보러가기!](https://show2023.emirim.kr/)
 
-## Available Scripts
+<br />
+<br />
 
-In the project directory, you can run:
+## 🖥 PC
+|메인화면|상세페이지1|상세페이지2|
+|---|---|---|
+|![image](https://github.com/55soup/itshow_introduce/assets/86298664/6758f70e-e3fa-4b7f-a06c-642a8884cfdb)|![image](https://github.com/55soup/itshow_introduce/assets/86298664/6f139fb1-6135-496f-ae2f-9ff0004a88c0)|![image](https://github.com/55soup/itshow_introduce/assets/86298664/53d5d9ca-6b7b-4825-9e66-39f37a6d40c2)|
 
-### `npm start`
+<br />
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📱 PHONE
+|메인화면|상세페이지1|상세페이지2|
+|---|---|---|
+|![image](https://github.com/55soup/itshow_introduce/assets/86298664/b68ce976-55d6-4060-b9b7-5b48f5b87fc9)|![image](https://github.com/55soup/itshow_introduce/assets/86298664/ab36bde6-2c81-4ba4-818a-03e0f7ee3bf6)|![image](https://github.com/55soup/itshow_introduce/assets/86298664/df08ed7f-984d-4e2b-b592-d9668789fad6)|
